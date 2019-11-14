@@ -1,10 +1,47 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <meta charset="utf-8">
     <title>Assignment 5</title>
   </head>
-  <body>
-
+  <body class="body">
+<div class="fullscreen-bg">
+        <video loop muted autoplay poster="img/paintingvideo.png" class="fullscreen-bg__video">
+            <source src="images/paintingvideo.mp4" type="video/mp4">
+        </video>
+</div>
+<section class="main">
+<h1>Headline about Toolbox</h1>
+<ul>
+  <li>Reason to shop 1</li>
+  <li>Reason to shop 2</li>
+  <li>Reason to shop 3</li>
+  <li>Sign up discount here</li>
+</ul>
+<!--form code-->
+<div class="formdiv"><div class="text-content">
+<form action="/action_page.php">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your name..">
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<label for="lname">Message</label>
+<input type="text" id="message" name="message" placeholder="Leave us a note..">
+<label for="email">Email</label>
+<input type="text" id="email" name="email" placeholder="youremail@mail.com">
+<label for="pnumber">Phone Number</label>
+<input type="text" id="pnumber" name="phonenumber" placeholder="(xxx) xxx-xxxx">
+<label for="reachyou">Best Way to Reach You?</label>
+<select id="reachyou" name="reachyou">
+  <option value="text">text</option>
+  <option value="call">call</option>
+  <option value="email">email</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+  <p>You are opting in to recieve emails from Toolbox for Creates. Don't worry, your information will not be shared. We value your privacy!</p>
+  <p>Photo by Steve Johnson from Pexels</p>
+</section>
   </body>
 </html>
