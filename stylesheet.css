@@ -21,7 +21,7 @@
 
 /*body code*/
 @@font-face {
-  font: open Sans
+  font: open Sans;
 }
 
 body{
@@ -71,4 +71,6 @@ input[type=submit]:hover {
   padding-left: 20px;
   margin: 20px;
   float: right;
+  height: 100px;
+  width: 600px;
 }
